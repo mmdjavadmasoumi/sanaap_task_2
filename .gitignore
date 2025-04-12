@@ -1,0 +1,62 @@
+# Python-related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+*.log
+*.pot
+*.py[cod]
+
+# Django-related
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+*.sqlite3
+/static/
+media/
+/staticfiles/
+
+## Environment files
+#.env
+#*.env
+
+## Docker-related
+#*.dockerignore
+#Dockerfile
+#docker-compose.yml
+
+# Virtual environment
+venv/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# IDE files (e.g., PyCharm, VSCode)
+.vscode/
+.idea/
+
+# macOS-related
+.DS_Store
+
+# Windows-related
+Thumbs.db
+Desktop.ini
+
+# Pytest
+*.coverage
+*.hypothesis/
+
+# MySQL
+*.sql
+
+# VSCode settings
+.vscode/
+
+# Other files you don't want to track
+*.bak
+*.swp
